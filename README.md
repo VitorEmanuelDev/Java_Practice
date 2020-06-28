@@ -1,2 +1,2 @@
 # Java
-Practicing Java
+Java Programming Exercises.
