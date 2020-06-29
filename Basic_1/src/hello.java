@@ -3,8 +3,6 @@ import java.util.Scanner;
 //Write a Java program to print 'Hello' on screen and then print your name on a separate line.
 
 public class hello {
-  
-	//private static Scanner input;
 
 	public static void main(String[] args) {
 
