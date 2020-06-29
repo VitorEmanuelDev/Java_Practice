@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-///Write a Java program to print 'Hello' on screen and then print your name on a separate line.
+//Write a Java program to print 'Hello' on screen and then print your name on a separate line.
 
 public class hello {
 
