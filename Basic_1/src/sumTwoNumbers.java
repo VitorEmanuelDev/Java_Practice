@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class sumTwoNumbers {
 	
-  //private static Scanner input;
+  private static Scanner scan;
 
   public static void main(String[] args){
 	  
-	  Scanner scan = new Scanner (System.in);
+	  /*Scanner*/ scan = new Scanner (System.in);
     
 	  System.out.print("Input two numbers:\n");
 	  int num1 = scan.nextInt();
 	  int num2 = scan.nextInt();
 	  
-	  scan.close();
+	  //scan.close();
 	  
 	  int sum = num1 + num2;
 	  
