@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-///Write a Java program to print the sum of two numbers. 
+//Write a Java program to print the sum of two numbers. 
 
 public class sumTwoNumbers {
 	
