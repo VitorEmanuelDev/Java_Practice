@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class hello {
   
+	//private static Scanner input;
+
 	public static void main(String[] args) {
 
 	  String name;
@@ -14,7 +16,7 @@ public class hello {
       System.out.println("\nHello");      
       System.out.println(name);
       
-      input.close(); 
+      input.close();
       
   }
   
