@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//Write a Java program to reverse a string.
 
 public class stringReverse {
 
@@ -23,7 +24,6 @@ public class stringReverse {
 		     System.out.print(ch);
 		     
 		  }
-		  
 		  
 	}
 	
