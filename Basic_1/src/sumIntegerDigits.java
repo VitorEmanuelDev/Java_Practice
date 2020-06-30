@@ -1,6 +1,6 @@
 import java.util.*;
 
-//Write a Java program and compute the sum of the digits of an integer.
+//Write a Java program to compute the sum of digits of an integer.
 
 public class sumIntegerDigits {
 	
