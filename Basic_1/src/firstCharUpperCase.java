@@ -17,13 +17,13 @@ import java.util.*;
 	 
 	 String lineUpperCase = ""; 
 	 
-       lineCopy = new Scanner(line); 
+       lineCopy = new Scanner(line); //this is necessary because strings are immutable in java
        
          while(lineCopy.hasNext()) {
         	 
-              String word = lineCopy.next(); 
+              String word = lineCopy.next();//this function makes sure the next element is viewed as if it was in a new row. so it restarts the index to 0 after each word
              
-             lineUpperCase += Character.toUpperCase(word.charAt(0)) + word.substring(1) + " "; 
+             lineUpperCase += Character.toUpperCase(word.charAt(0)) + word.substring(1) + " "; //put to uppercase and concatenate
              
          }
          
