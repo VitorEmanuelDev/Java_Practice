@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class perfectNumber {
 	
-	private int sum;
-	private Scanner scan;
+	private static int sum;
+	private static Scanner scan;
 
-	public void perfect() {
+	public static void main(String[] args) {
 	
 		scan = new Scanner (System.in);
 	 
@@ -28,11 +28,11 @@ public class perfectNumber {
 	
 		if(number == sum){
 		
-			System.out.printf("%d is a perfect number", number);
+			System.out.printf("%d is a perfect number.", number);
 		
 		}else {
 		
-			System.out.printf("%d is not a perfect number", number);
+			System.out.printf("%d is not a perfect number.", number);
 		
 		}
 
