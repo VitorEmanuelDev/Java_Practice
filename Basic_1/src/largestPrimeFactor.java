@@ -1,6 +1,9 @@
+
+
 //Write a Java program to find the largest prime factor
 
 public class largestPrimeFactor {
+
 
 	public static int largestPrimeFactor(int number) {
 		
@@ -24,7 +27,10 @@ public class largestPrimeFactor {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(largestPrimeFactor(55));//type a number you want to test
+		
+		int number = 99;
+		
+		System.out.println(largestPrimeFactor(number));//type a number you want to test
 		
 	}
 	
