@@ -28,14 +28,13 @@ public class largestPrimeFactor {
     }
 	
 	public static void main(String[] args) {
-		
-		
+				
 		scan = new Scanner (System.in);
 		
 		System.out.print("Type one number:\n");
 		int number = scan.nextInt();
 		
-		System.out.println(largestPrimeFactor(number));//type a number you want to test
+		System.out.println(largestPrimeFactor(number));
 		
 	}
 	
