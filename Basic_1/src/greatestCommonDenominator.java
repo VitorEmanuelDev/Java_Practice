@@ -1,4 +1,3 @@
-import java.io.Closeable;
 import java.util.Scanner;
 
 //Write a Java program to find the greatest common denominator of two numbers
