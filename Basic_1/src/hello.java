@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class hello {
 
+	private static Scanner scan;
+
 	public static void main(String[] args) {
 
 	  String name;
 	  System.out.println("Write your name:");
-      Scanner input = new Scanner(System.in);
-      name = input.nextLine();
+      scan = new Scanner(System.in);
+      name = scan.nextLine();
 
       System.out.println("\nHello");      
       System.out.println(name);
-      
-      input.close();
       
   }
   
