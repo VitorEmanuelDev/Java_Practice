@@ -12,11 +12,7 @@ public class greatestCommonDenominator {
 	 
 		System.out.print("Type two numbers:\n");
 		int number1 = scan.nextInt();
-		int number2 = scan.nextInt();
-		
-		scan.close();
-		scan.close();
-	  
+		int number2 = scan.nextInt();	  
 
 		for(int i = 1; i <= number1 && i <= number2; i++){
 			
