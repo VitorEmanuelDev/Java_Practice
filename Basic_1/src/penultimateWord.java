@@ -1,18 +1,18 @@
 import java.util.*;
 
-//Write a Java program to find the penultimate (next to last) word of a sentence.
+//Write a Java program to find the penultimate (next to last) word of a sentence
 
  public class penultimateWord {
 	 
-     private static Scanner in;
+     private static Scanner scan;
 
 	public static void main(String[] args){
     	 
-     in = new Scanner(System.in);
+     scan = new Scanner(System.in);
      
      System.out.print("Write a sentence: ");
      
-	 String str = in.nextLine(); //this string is one unit, and it's immutable unless we use a function
+	 String str = scan.nextLine(); //this string is one unit, and it's immutable unless we use a function
 	 
 	 String[] arrStr = str.split(" ");//the split function here is set to split the string into array elements whenever there's a space between them. this will make each word become a single element in an array structure which will allow us to navigate the string array strArr with indexes
 	 
