@@ -1,29 +1,29 @@
 import java.util.*;
 
-//Write a Java program to capitalize the first letter of each word in a sentence.
+//Write a Java program to capitalize the first letter of each word in a sentence
 
  public class firstCharUpperCase {
 	 
-    private static Scanner in;
+    private static Scanner scan;
 	private static Scanner lineCopy;
 
 	public static void main(String[] args){
     	 
-	 in = new Scanner(System.in);
+	 scan = new Scanner(System.in);
 	 
-     System.out.print("Input a Sentence: ");
+     System.out.print("Input a sentence: ");
      
-	 String line = in.nextLine();
+	 String line = scan.nextLine();
 	 
 	 String lineUpperCase = ""; 
 	 
-       lineCopy = new Scanner(line); //this is necessary because strings are immutable in java
+       lineCopy = new Scanner(line); //this step is necessary, because strings are immutable in java
        
          while(lineCopy.hasNext()) {
         	 
-              String word = lineCopy.next();//this function makes sure the next element is viewed as if it was in a new row. so it restarts the index to 0 after each word
+              String word = lineCopy.next();//this function makes sure the next element is viewed as if it was in a new row. So it restarts the index to 0 after each word, and that allows the function charAt to identify the first char and change it to uppercase 
              
-             lineUpperCase += Character.toUpperCase(word.charAt(0)) + word.substring(1) + " "; //put to uppercase and concatenate
+             lineUpperCase += Character.toUpperCase(word.charAt(0)) + word.substring(1) + " "; //put to uppercase and concatenate. the function substring will read the words after the first char that was just put to uppercase
              
          }
          
