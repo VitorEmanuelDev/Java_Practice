@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Write a Java program to check if a number is a palindrome. 
 
-public class isPalindrome {
+public class isIntegerPalindrome {
 
 	 private static Scanner scan;
 
@@ -18,7 +18,7 @@ public class isPalindrome {
 		  
 		  while(number > 0){   
 			  
-			  remainder = number % 10;  //to get the last digit ex 234 % 10 = 4 
+			  remainder = number % 10;  //to get the last digit ex: 234 % 10 = 4 
 		  
 			  sum = (sum * 10) + remainder;   
 		   
