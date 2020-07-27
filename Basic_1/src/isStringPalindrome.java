@@ -1,53 +1,46 @@
 import java.util.Scanner;
 
-// Write a Java program to check if a string is a palindrome or not
+//Write a Java program to check if a string is a palindrome
 
-public class isStringPalindrome {
+public class isStringPalindrome { 
 
-    private static Scanner scan;
+	private static Scanner scan;
 
-	public static void main (String [] args) {
-    	
-        scan = new Scanner(System.in);
-        
-        int word = scan.nextInt();
-        
-        scan.nextLine();
+	public static boolean isPalindrome(String word){ 
 
-        for(int i = 1; i <= word; i++){
-            
-            String wordCheck = scan.nextLine();
-            
-            if(ifIsPalindrome(wordCheck)) {
-            	
-              System.out.println("\"YES\"");
-              
-            } else {
-            	
-              System.out.println("\"NO\"");
-              
-            }
+		for(int i = 0, j = word.length() - 1; i <= word.length()/2; i++, j--){ //read from 0 to the end of the first half of the word with i, and read with j from end to half
+			
+			if (word.charAt(i) != word.charAt(j)){//if we find a difference, it isn't a palindrome
+				
+				return false; 
+				
+			}	
+			
+		} 
 
-        }
-        
-    }
+		return true; // no differences means it's a palindrome
+		
+	} 
 
-    private static boolean ifIsCharPalindrome(String palidrome) {
+	public static void main(String[] args){
+		
+		String word;
+		  
+		System.out.println("Write something:");
+		  
+	    scan = new Scanner(System.in);
+	    word = scan.nextLine();
 
-        boolean ifIsCharPalindrome = true;
-        
-        String palindrome;
-		for(int i = 0; i < palindrome.length(); i++){
-        	
-          char leftRead = palindrome.charAt(i);
-          char rightRead = palindrome.charAt(palindrome.length() - 1 -i);
-
-          if(leftRead == rightRead){
-        	  
-        	  ifIsCharPalindrome = false;
-          }
-
-        }
-        return ifIsCharPalindrome;
-   
-}
+	    if (isPalindrome(word)) {
+			
+	    	System.out.printf("\"%s\" is a palindrome.", word);
+	    	  
+	    }else{
+			
+	    	System.out.printf("\"%s\" is not a palindrome.", word); 
+			
+	    }
+	      
+	} 
+	
+} 
