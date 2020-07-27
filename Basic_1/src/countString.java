@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class countString {
 
-	private static String str;
+	private static String sentence;
 	private static Scanner scan;
-	private static char ch;
+	private static char character;
 	private static int letter = 0;
 	private static int number = 0;
 	private static int space = 0;
@@ -19,23 +19,21 @@ public class countString {
 		
 		System.out.print("Type a sentence:\n");
 		
-		  str = scan.nextLine();
+		  sentence = scan.nextLine();
 		  
-		  scan.close();
-		  
-		  for(int i = 0; i < str.length(); i++){
+		  for(int i = 0; i < sentence.length(); i++){
 			  
-			  ch = str.charAt(i);
+			  character = sentence.charAt(i);
 			  
-			  if((ch >= 65 && ch <= 90) || (ch >= 97 && ch <= 122)) {
+			  if((character >= 65 && character <= 90) || (character >= 97 && character <= 122)) {
 		     
 				  letter++; 
 				  	
-			  }else if(ch >= 48 && ch <= 57){
+			  }else if(character >= 48 && character <= 57){
 				  
 				  number++;
 			  
-			  } else if(ch == 32) {
+			  } else if(character == 32) {
 				  
 				  space++;
 				  
