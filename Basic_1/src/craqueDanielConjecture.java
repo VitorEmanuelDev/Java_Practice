@@ -80,19 +80,19 @@ public class craqueDanielConjecture {
 				
 			switch(golDaAlemanha) {
 			
-				case 1: System.out.println("Gol do Brasil, mas parece que foi um equívoco...");
+				case 0: System.out.println("Gol do Brasil, mas parece que foi um equívoco...");
 				break;
-				case 2: System.out.println("Que noite infeliz da seleção brasileira. Até chute para fora deu errado e entrou dentro do gol!");
+				case 1: System.out.println("Que noite infeliz da seleção brasileira. Até chute para fora deu errado e entrou dentro do gol!");
 				break;
-				case 3: System.out.println("Não foi sorte, foi doideira.");
+				case 2: System.out.println("Não foi sorte, foi doideira.");
 				break;
-				case 4: System.out.println("Fiquei com medo de abrir a geladeira e ter um gol da Alemanha lá dentro...");
+				case 3: System.out.println("Fiquei com medo de abrir a geladeira e ter um gol da Alemanha lá dentro...");
 				break;
-				case 5: System.out.println("Cerginho: Vou descrever todos os gols da Alemanha, Daniel. De uma maneira só, porque foram todos iguais. A Alemanha tocando a bola e o Brasil olhando, Daniel.");
+				case 4: System.out.println("Cerginho: Vou descrever todos os gols da Alemanha, Daniel. De uma maneira só, porque foram todos iguais. A Alemanha tocando a bola e o Brasil olhando, Daniel.");
 				break;
-				case 6: System.out.println("Daniel: Bela Aálise, Cerginho. Muito concisa. Inclusive, depois do quarto ou quinto gol já estava achando que era replay...");
+				case 5: System.out.println("Daniel: Bela Aálise, Cerginho. Muito concisa. Inclusive, depois do quarto ou quinto gol já estava achando que era replay...");
 				break;
-				case 7: System.out.println("Daniel: A única instrução que o Felipão deveria ter feito no segundo tempo é: Não.vamos.voltar. Vamos ficar aqui, e a equipe reclusa no vestiário, passada algumas horas, alguns dias, a torcida ia esquecer do jogo e voltar pra casa");
+				case 6: System.out.println("Daniel: A única instrução que o Felipão deveria ter feito no segundo tempo é: Não.vamos.voltar. Vamos ficar aqui, e a equipe reclusa no vestiário, passada algumas horas, alguns dias, a torcida ia esquecer do jogo e voltar pra casa");
 				break;
 			
 			}
