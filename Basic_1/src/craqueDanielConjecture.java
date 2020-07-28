@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Para compreender essa máquina do tempo: https://www.youtube.com/watch?v=i_od4HAsVLo
+//Para compreender esta máquina do tempo: https://www.youtube.com/watch?v=i_od4HAsVLo
 
 /*
 
