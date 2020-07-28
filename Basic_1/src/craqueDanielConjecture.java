@@ -78,7 +78,7 @@ public class craqueDanielConjecture {
 				
 			switch(golDaAlemanha) {
 			
-				case 1: System.out.println("Que noite infeliz da seleção brasileira. Até chute para fora deu errado e entrou dentro do gol!");
+				case 1: System.out.println("Que noite infeliz da seleção brasileira. Até chute para fora do Oscar deu errado e entrou dentro do gol!");
 				break;
 				case 2: System.out.println("Não foi sorte, foi doideira.");
 				break;
@@ -88,7 +88,7 @@ public class craqueDanielConjecture {
 				break;
 				case 5: System.out.println("Daniel: Bela Aálise, Cerginho. Muito concisa. Inclusive, depois do quarto ou quinto gol já estava achando que era replay...");
 				break;
-				case 6: System.out.println("Daniel: A única instrução que o Felipão deveria ter feito no segundo tempo é: Não.vamos.voltar. Vamos ficar aqui, e a equipe reclusa no vestiário, passada algumas horas, alguns dias, a torcida ia esquecer do jogo e voltar pra casa");
+				case 6: System.out.println("Daniel: A única instrução que o Felipão deveria ter feito no segundo tempo é: Não.Vamos.Voltar! Vamos ficar aqui, e a equipe reclusa no vestiário, passadas algumas horas, alguns dias, a torcida ia esquecer do jogo e voltar pra casa");
 				break;
 			
 			}
