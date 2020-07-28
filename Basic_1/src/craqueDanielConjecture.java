@@ -37,7 +37,7 @@ public class craqueDanielConjecture {
 			
 			System.out.println("Pode isso Cerginho?!?! Isso não existe!! Não com o David Luiz e o Fred em campo.");
 				
-				golDoBrasil = 7;
+			golDoBrasil = 7;
 			
 		}
 		
