@@ -108,7 +108,7 @@ public class craqueDanielConjecture {
 		}
 		
 		System.out.println("Daniel: Esse rapaz, esse David Luiz, me irritou profundamente, já me irritava antes, dando abracinho em jogador que ele derrotava; jogou contra a Colômbia e foi dar abracinho e apontar pro jogador que tava chorando pra aparecer, essa é a forma mais baixa de se aparecer: em cima de um jogador derrotado.");
-		System.out.printf("Placar final!!! Brasil %d, Alemanha... %d!!!!!", golDoBrasil, golDaAlemanha);
+		System.out.printf("Placar final!!! Brasil %d, Alemanha... %d!!!!!!", golDoBrasil, golDaAlemanha);
 	
 	}
 
