@@ -5,7 +5,9 @@ import java.util.Scanner;
 /*
 
 "Somos joguete nas mãos dos astros, Cerginho! Não decidimos nada! Não sabemos nada! 
-Somos trapos de imundice diante do que os planetas podem fazer com os nossos destinos!"
+Somos trapos de imundice diante do que os planetas podem fazer com os nossos destinos! 
+
+Daniel, Craque (2019)"
 
 Veja o vídeo: https://twitter.com/natidanaiti/status/1146569926758543360
 
@@ -63,8 +65,6 @@ public class craqueDanielConjecture {
 					golDoBrasil--;
 						
 		}
-			
-		
 			
 		golDaAlemanha = alemanha;	
 		
