@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//
+//https://en.wikipedia.org/wiki/Collatz_conjecture
 
 public class CollatzConjecture {
 	
