@@ -44,9 +44,7 @@ public class craqueDanielConjecture {
 		while(golDoBrasil > 1) {
 					
 			switch(golDoBrasil) {
-					
-				case 1: System.out.println("Gol da Alemanha!");
-				break;
+				
 				case 2: System.out.println("Gol da Alemanha!");
 				break;
 				case 3: System.out.println("Além disso, Cerginho!! Quem garante que esse Neuer não é um cyborg!? Eles têm tecnologia para isso!");
@@ -80,8 +78,6 @@ public class craqueDanielConjecture {
 				
 			switch(golDaAlemanha) {
 			
-				case 0: System.out.println("Gol do Brasil, mas parece que foi um equívoco...");
-				break;
 				case 1: System.out.println("Que noite infeliz da seleção brasileira. Até chute para fora deu errado e entrou dentro do gol!");
 				break;
 				case 2: System.out.println("Não foi sorte, foi doideira.");
