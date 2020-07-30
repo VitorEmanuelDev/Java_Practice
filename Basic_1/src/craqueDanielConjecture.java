@@ -22,10 +22,10 @@ public class craqueDanielConjecture {
 	private static int golDoBrasil;
 	
 	public static void main(String[] args){
-	
-		scan = new Scanner (System.in);
 	 
 		System.out.println("Escreva um outro placar possível para o 7 a 1.\n");
+		scan = new Scanner (System.in);
+		
 		System.out.println("Alemanha:");
 		alemanha = scan.nextInt();
 		System.out.println("Brasil:");
