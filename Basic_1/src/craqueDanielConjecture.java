@@ -80,7 +80,7 @@ public class craqueDanielConjecture {
 			
 				case 1: System.out.println("Que noite infeliz da seleção brasileira. Até chute para fora do Oscar deu errado e entrou dentro do gol!");
 				break;
-				case 2: System.out.println("Não foi sorte, foi doideira.");
+				case 2: System.out.println("Cerginho: Só tenho uma coisa a dizer sobre isso... doideira!!!");
 				break;
 				case 3: System.out.println("Fiquei com medo de abrir a geladeira e ter um gol da Alemanha lá dentro...");
 				break;
