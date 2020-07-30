@@ -44,7 +44,8 @@ public class CollatzConjecture {
 			contador++;
 			
 		}while(integers > 0);
-	
+		
+		System.out.println("\nQuantidade de operações: " + contador);
 	
 	}
 	
