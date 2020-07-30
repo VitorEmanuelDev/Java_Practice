@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
 //https://en.wikipedia.org/wiki/Collatz_conjecture
+//float types should work beter
 
 public class CollatzConjecture {
 	
 	private static int number;
 	private static Scanner scan;
 	private static int integers;
-	private static int contador;
+	private static int counter;
 
 	public static void main(String[] args){
 	
@@ -17,11 +18,12 @@ public class CollatzConjecture {
 		number = scan.nextInt();
 	
 		integers = number;
-		contador = 0;
+		counter = 0;
 	
 		do{
 			
 			System.out.println(integers);
+			counter++;
 		
 			if(integers % 2 == 0) {
 				
@@ -41,11 +43,9 @@ public class CollatzConjecture {
 				
 			}
 			
-			contador++;
-			
 		}while(integers > 0);
 		
-		System.out.println("\nQuantidade de operações: " + contador);
+		System.out.println("\nNumbers printed: " + counter);
 	
 	}
 	
