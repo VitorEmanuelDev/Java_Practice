@@ -1,12 +1,12 @@
 # Java Programming Exercises, Courses, and Resources
 <br>
 <a href="https://www.coursera.org/specializations/java-programming#courses" target="_blank">
-  <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1" alt="Coursera logo" id="coursera_log_img" width="100px" height="100px">
+  <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1" alt="Coursera logo" id="coursera_log_img" width="50px" height="50px">
   <p>Java Programming and Software Engineering Fundamentals Specialization</p>
 </a>
 <br>
 <a href="https://www.w3resource.com/java-exercises/index.php" target="_blank">
-  <img src="https://www.w3resource.com/images/w3resource-logo.png" alt="w3resource logo" id="w3resource_log_img">
+  <img src="https://www.w3resource.com/images/w3resource-logo.png" alt="w3resource logo" id="w3resource_log_img" width="200px" height="50px">
   <p>w3resource.com Exercises</p>
 </a>
 <br>
