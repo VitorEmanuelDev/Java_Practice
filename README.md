@@ -1,7 +1,7 @@
 # Java Programming Exercises, Courses, and Resources
 <br>
 <a href="https://www.coursera.org/specializations/java-programming#courses" target="_blank">
-  <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1" alt="Coursera logo" id="coursera_log_img" width="50px" height="50px">
+  <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1" alt="Coursera logo" id="coursera_log_img" width="100px" height="100px">
   <p>Java Programming and Software Engineering Fundamentals Specialization</p>
 </a>
 <br>
