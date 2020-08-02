@@ -19,14 +19,4 @@
   <img src="https://img-a.udemycdn.com/user/200_H/35101150_6f0c_4.jpg" alt="LP logo" id="LP_log_img" width="50px" height="50px">
   <p>Java course in English: 25% completed</p>
 </a>
-<br>
-<a href="https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf" target="_blank">
-  <img src="https://avatars0.githubusercontent.com/u/65012?s=200&v=4" alt="Caelum logo OOP in Java" id="Caelum_log_img" width="50px" height="50px">
-  <p>Caelum's Java OOP booklet</p>
-</a>
-<br>
-<a href="https://www.caelum.com.br/apostila/apostila-java-web.pdf" target="_blank">
-  <img src="https://avatars0.githubusercontent.com/u/65012?s=200&v=4" alt="Caelum logo Web Dev in Java" id="Caelum_log_img" width="50px" height="50px">
-  <p>Caelum's Java Web Dev booklet</p>
-</a>
 
