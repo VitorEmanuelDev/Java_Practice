@@ -1,6 +1,7 @@
 # Java
+<br>
 <a href="https://www.oracle.com/java/" target="_blank">
-  <img src="https://www.pngwave.com/png-clip-art-bffec" alt="Java mascot logo" id="mascot_log_img">
+  <img src="https://w0.pngwave.com/png/874/1014/java-user-group-mascot-png-clip-art.png" alt="Java mascot logo" id="mascot_log_img" width="100px" height="50px">
 </a>
 <br>
 Java Programming Exercises and Resources.
@@ -25,12 +26,12 @@ Java Programming Exercises and Resources.
 <br>
 <a href="https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf" target="_blank">
   <img src="https://avatars0.githubusercontent.com/u/65012?s=200&v=4" alt="Caelum logo OOP in Java" id="Caelum_log_img" width="50px" height="50px">
-  <p>Caelum's Java OOP bokklet</p>
+  <p>Caelum's Java OOP booklet</p>
 </a>
 <br>
 <br>
 <a href="https://www.caelum.com.br/apostila/apostila-java-web.pdf" target="_blank">
   <img src="https://avatars0.githubusercontent.com/u/65012?s=200&v=4" alt="Caelum logo Web Dev in Java" id="Caelum_log_img" width="50px" height="50px">
-  <p>Caelum's Java Web Dev bokklet</p>
+  <p>Caelum's Java Web Dev booklet</p>
 </a>
 
