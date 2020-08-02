@@ -1,5 +1,4 @@
 # Java Programming Exercises and Resources
-<hr>
 <br>
 <a href="https://www.w3resource.com/java-exercises/index.php" target="_blank">
   <img src="https://www.w3resource.com/images/w3resource-logo.png" alt="w3resource logo" id="w3resource_log_img">
