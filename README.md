@@ -1,11 +1,9 @@
-# Java
+# Java Programming Exercises and Resources.
 <br>
 <a href="https://www.oracle.com/java/" target="_blank">
   <img src="https://w0.pngwave.com/png/874/1014/java-user-group-mascot-png-clip-art.png" alt="Java mascot logo" id="mascot_log_img" width="110px" height="85px">
-<p># Java</p>
 </a>
 <br>
-Java Programming Exercises and Resources.
 <br>
 <a href="https://www.w3resource.com/java-exercises/index.php" target="_blank">
   <img src="https://www.w3resource.com/images/w3resource-logo.png" alt="w3resource logo" id="w3resource_log_img">
