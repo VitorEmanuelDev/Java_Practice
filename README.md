@@ -10,7 +10,7 @@ Java Programming Exercises and Resources.
 </a>
 <br>
 <a href="https://www.udemy.com/course/java-the-complete-java-developer-course/" target="_blank">
-  <img src="https://img-a.udemycdn.com/user/200_H/35101150_6f0c_4.jpg" alt="LP logo" id="LP_log_img" style="width:100px;height:100px;>
+  <img src="https://img-a.udemycdn.com/user/200_H/35101150_6f0c_4.jpg" alt="LP logo" id="LP_log_img" width="100px" height="100px">
 </a>
 <br>
 <a href="https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf" target="_blank">
