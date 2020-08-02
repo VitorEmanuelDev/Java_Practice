@@ -1,7 +1,8 @@
 # Java
 <br>
 <a href="https://www.oracle.com/java/" target="_blank">
-  <img src="https://w0.pngwave.com/png/874/1014/java-user-group-mascot-png-clip-art.png" alt="Java mascot logo" id="mascot_log_img" width="100px" height="50px">
+  <img src="https://w0.pngwave.com/png/874/1014/java-user-group-mascot-png-clip-art.png" alt="Java mascot logo" id="mascot_log_img" width="110px" height="85px">
+<p># Java</p>
 </a>
 <br>
 Java Programming Exercises and Resources.
