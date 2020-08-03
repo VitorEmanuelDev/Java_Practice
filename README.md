@@ -12,6 +12,6 @@
 <br>
 <a href="https://www.udemy.com/course/java-the-complete-java-developer-course/" target="_blank">
   <img src="https://img-a.udemycdn.com/user/200_H/35101150_6f0c_4.jpg" alt="LP logo" id="LP_log_img" width="50px" height="50px">
-  <p>Java course in English: 25% completed</p>
+  <p>Java Course in English: 25% completed</p>
 </a>
 
