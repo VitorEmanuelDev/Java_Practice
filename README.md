@@ -2,7 +2,7 @@
 <br>
 <a href="https://www.coursera.org/specializations/java-programming#courses" target="_blank">
   <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-logo-square.png?auto=format%2Ccompress&dpr=1" alt="Coursera logo" id="coursera_log_img" width="50px" height="50px">
-  <p>Java Programming and Software Engineering Fundamentals Specialization</p>
+  <p>Java Programming and Software Engineering Fundamentals</p>
 </a>
 <br>
 <a href="https://www.w3resource.com/java-exercises/index.php" target="_blank">
