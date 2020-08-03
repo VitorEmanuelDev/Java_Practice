@@ -5,11 +5,6 @@
   <p>Java Programming and Software Engineering Fundamentals</p>
 </a>
 <br>
-<a href="https://www.w3resource.com/java-exercises/index.php" target="_blank">
-  <img src="https://www.w3resource.com/images/w3resource-logo.png" alt="w3resource logo" id="w3resource_log_img" width="200px" height="50px">
-  <p>w3resource.com Exercises</p>
-</a>
-<br>
 <a href="https://cursos.alura.com.br/formacao-java" target="_blank">
   <img src="https://cursos.alura.com.br/assets/images/logos/logo-alura.svg" alt="Alura logo" id="Alura_log_img" width="100px" height="50px">
   <p>Java Course in Portuguese: 60% completed</p>
