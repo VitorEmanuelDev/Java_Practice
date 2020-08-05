@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //https://en.wikipedia.org/wiki/Collatz_conjecture
-//float types should work beter
+//float types should work better
 
 public class CollatzConjecture {
 	
@@ -10,7 +10,7 @@ public class CollatzConjecture {
 	private static int integers;
 	private static int counter;
 
-	public static void main(String[] args){
+	public static void collatz(String[] args){
 	
 		scan = new Scanner (System.in);
 	 
