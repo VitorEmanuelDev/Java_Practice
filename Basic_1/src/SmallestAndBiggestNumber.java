@@ -1,8 +1,9 @@
 
-public class SmallestNumber {
+public class SmallestAndBiggestNumber {
 	
 	private static int number[];
 	private static int smallest;
+	private static int   biggest;
 
 	public static void main(String[] args){
 		
@@ -26,7 +27,19 @@ public class SmallestNumber {
 			
 		}
 		
-		System.out.println("The smallest number is " + number[smallest]);
+		biggest = 0;
+		
+		for(int current = 0; current < 6; current++) {
+			
+			if(number[current] > number[biggest]) {
+				
+				biggest = current;
+				
+			}
+			
+		}
+		
+		System.out.println("The biggest number is " + number[biggest] + " and the smallest number is " + number[smallest]);
 		
 	}
 	
