@@ -10,6 +10,8 @@ public class multiplicationTable {
 	    
 		System.out.print("Which table do you want to see?\n");
 		int num = scan.nextInt();
+		scan.close();
+		
 		int result;
 		  
 		for(int i = 1; i <= 10; i++){
