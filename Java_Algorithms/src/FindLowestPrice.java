@@ -1,5 +1,6 @@
 //related to the Item class
-public class LowestAndHighestPrice {
+public class FindLowestPrice {
+
 
 	public static void main(String[] args){
 		
@@ -16,18 +17,13 @@ public class LowestAndHighestPrice {
 		};
 		
 		int lowestPrice = lookForCheapest(items);
-		int highestPrice = LookForMostExpensive(items);
 		
-		
-		System.out.println("The " + items[highestPrice].getName() + " is the most expensive item and costs: " + items[highestPrice].getPrice());
 		System.out.println("The " + items[lowestPrice].getName() + " is the cheapest item and costs: " + items[lowestPrice].getPrice());
+		
 		
 	}
 	
-	
-	
-
-	private static int lookForCheapest(Item[] items) {
+private static int lookForCheapest(Item[] items) {
 		
 		int lowestPrice = 0;
 		
@@ -44,26 +40,6 @@ public class LowestAndHighestPrice {
 		return lowestPrice;
 		
 	}
-	
-	
-	private static int LookForMostExpensive(Item[] items) {
-		
-		int highestPrice = 0;
-		
-		for(int currentPrice = 0; currentPrice < items.length && items[currentPrice] != null; currentPrice++) {
-			
-			if(items[currentPrice].getPrice() > items[highestPrice].getPrice()) {
-				
-				highestPrice = currentPrice;
-				
-			}
-			
-		}
-		
-		return highestPrice;
-		
-	}
-	
 	
 	
 }

@@ -2,7 +2,7 @@ import java.util.*;
 
 //Write a Java program to compute the sum of digits of an integer.
 
-public class sumIntegerDigits {
+public class SumIntegerDigits {
 	
 	private static String str;
 	private static int num;
@@ -40,6 +40,6 @@ public class sumIntegerDigits {
 	}
 
 	public static void setStr(String str) {
-		sumIntegerDigits.str = str;
+		SumIntegerDigits.str = str;
 	}
 }

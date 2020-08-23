@@ -2,7 +2,7 @@ import java.util.*;
 
 //Write a Java program to find the penultimate (next to last) word of a sentence
 
- public class penultimateWord {
+ public class PenultimateWord {
 	 
      private static Scanner scan;
 

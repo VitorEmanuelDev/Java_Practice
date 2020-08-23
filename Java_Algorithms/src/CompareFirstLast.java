@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Write a Java program to find out if the first or last value is bigger
 
-public class compareFirstLast {
+public class CompareFirstLast {
 	
 	private static Scanner scan;
 	private static int size;

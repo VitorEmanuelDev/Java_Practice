@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Write a Java program to check if a number is also equal to the sum of its factors.
 
-public class perfectNumber {
+public class PerfectNumber {
 	
 	private static int sum;
 	private static Scanner scan;

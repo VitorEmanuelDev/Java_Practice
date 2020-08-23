@@ -13,7 +13,7 @@ Veja o vídeo: https://twitter.com/natidanaiti/status/1146569926758543360
 
 */
 
-public class craqueDanielConjecture {
+public class CraqueDanielConjecture {
 	
 	private static int alemanha;
 	private static int brasil;

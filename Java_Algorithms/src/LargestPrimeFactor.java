@@ -2,28 +2,27 @@ import java.util.Scanner;
 
 //Write a Java program to find the largest prime factor
 
-public class largestPrimeFactor {
+public class LargestPrimeFactor {
 
 
 	private static Scanner scan;
 
-	public static int largestPrimeFactor(int number) {
+	public static int LargestPrimeFactorMethod(int number) {
 		
         int i;
 
         for (i = 2; i <= number; i++) {
         	
-            if (number % i == 0) {
+            if (number % i == 0 && number / i != 1) {
             	
-                number /= i;
-                
-                i--;
+                number = number / i;
+                break;
                 
             }
             
         }
 
-        return i;
+        return number;
         
     }
 	
@@ -34,7 +33,7 @@ public class largestPrimeFactor {
 		System.out.print("Type one number:\n");
 		int number = scan.nextInt();
 		
-		System.out.println(largestPrimeFactor(number));
+		System.out.println(LargestPrimeFactorMethod(number));
 		
 	}
 	

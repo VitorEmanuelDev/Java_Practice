@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Write a Java program that takes a number as input and prints its multiplication table up to 10.
 
-public class multiplicationTable {
+public class MultiplicationTable {
 
 	public static void main(String[] args){
 		  

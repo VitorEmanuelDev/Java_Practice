@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Write a Java program to print the sum of two numbers. 
 
-public class sumTwoNumbers {
+public class SumTwoNumbers {
 
   public static void main(String[] args){
 	  

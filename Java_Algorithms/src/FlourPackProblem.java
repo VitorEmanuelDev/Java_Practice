@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 // Write a Java program to find the number of boxes needed. 
 
-public class flourPackProblem {
+public class FlourPackProblem {
 	  
 	    private static Scanner scan;
 		private static int totalWeight;

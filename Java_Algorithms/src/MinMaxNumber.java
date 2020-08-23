@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Write a Java program to classify the minimum and maximum values typed by the user
 
-public class minMaxNumber {
+public class MinMaxNumber {
 	
 	private static Scanner scan;
 

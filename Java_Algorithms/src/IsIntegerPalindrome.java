@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Write a Java program to check if a number is a palindrome. 
 
-public class isIntegerPalindrome {
+public class IsIntegerPalindrome {
 
 	 private static Scanner scan;
 

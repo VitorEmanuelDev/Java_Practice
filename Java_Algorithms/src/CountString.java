@@ -3,7 +3,7 @@ import java.util.Scanner;
 //Write a Java program to count the letters, spaces, numbers and other characters of an input string.
 
 
-public class countString {
+public class CountString {
 
 	private static String sentence;
 	private static Scanner scan;

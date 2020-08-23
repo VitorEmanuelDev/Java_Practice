@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Write a Java program to reverse a string.
 
-public class stringReverse {
+public class StringReverse {
 
 	private static String str;
 	private static Scanner scan;

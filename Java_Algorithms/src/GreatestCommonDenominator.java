@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Write a Java program to find the greatest common denominator of two numbers
 
-public class greatestCommonDenominator {
+public class GreatestCommonDenominator {
 
 	public static void main(String[] args) {
 	

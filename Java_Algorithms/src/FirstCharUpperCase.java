@@ -2,7 +2,7 @@ import java.util.*;
 
 //Write a Java program to capitalize the first letter of each word in a sentence
 
- public class firstCharUpperCase {
+ public class FirstCharUpperCase {
 	 
     private static Scanner scan;
 	private static Scanner lineCopy;

@@ -5,7 +5,7 @@ to Life, the Universe, and Everything. More precisely... rewrite small numbers
 from input to output. Stop processing input after reading in the number 42.
 All numbers at input are integers of one or two digits. */
 
-public class readAllIntegersBut42 {
+public class ReadAllIntegersBut42 {
 
     private static Scanner scan;
 	private static int size;
