@@ -15,7 +15,7 @@ public class InsertionSortPrices {
 				null
 		};
 		
-		sortItemsAscedingOrder(items);//Insertion sort
+		insertionSort(items);//Insertion sort
 		
 		for(Item item : items) {
 			
@@ -29,26 +29,25 @@ public class InsertionSortPrices {
 		
 	}
 	
-private static void sortItemsAscedingOrder(Item[] items) {
+	private static void insertionSort(Item[] items) {
 		
-	for(int currentPrice = 1; currentPrice < items.length && items[currentPrice] != null; currentPrice++) {
+		for(int currentPrice = 1; currentPrice < items.length && items[currentPrice] != null; currentPrice++) {
 		
-		int analysis = currentPrice;
+			int comparedItem = currentPrice;
 		
-		while(analysis > 0 && items[analysis].getPrice() < items[analysis - 1].getPrice()) {
+			while(comparedItem > 0 && items[comparedItem].getPrice() < items[comparedItem - 1].getPrice()) {
 		
-			Item currentItem = items[analysis];
-			Item lowerPriceItem = items[analysis - 1];
-			items[analysis] = lowerPriceItem;
-			items[analysis - 1] = currentItem;
+				Item currentItem = items[comparedItem];
+				Item lowerPricedItem = items[comparedItem - 1];
+				items[comparedItem] = lowerPricedItem;
+				items[comparedItem - 1] = currentItem;
 			
-			analysis--;
+				comparedItem--;
 			
+			}
+		
 		}
-	
 		
 	}
-		
-}
 
 }

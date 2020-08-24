@@ -17,7 +17,7 @@ public class SelectionSortPrices {
 				null
 		};
 		
-		sortItemsAscedingOrder(items);//Selection sort
+		selectionSort(items);//Selection sort
 		
 		for(Item item : items) {
 			
@@ -31,21 +31,33 @@ public class SelectionSortPrices {
 		
 	}
 	
-private static void sortItemsAscedingOrder(Item[] items) {
+private static void selectionSort(Item[] items) {
 		
-	for(int currentPrice = 0; currentPrice < items.length && items[currentPrice] != null; currentPrice++) {
+	for(int currentPrice = 0; currentPrice < items.length /*&& items[currentPrice] != null*/; currentPrice++) {
 		
-		int lowestPrice = lookForCheapest(items, currentPrice);
+		int lowestPrice = currentPrice;
+		
+		for(int comparedItem = lowestPrice; comparedItem < items.length && items[comparedItem] != null; comparedItem++) {
+			
+			if(items[comparedItem].getPrice() < items[lowestPrice].getPrice()) {
+				
+				lowestPrice = comparedItem;
+				
+			}
+			
+		}
+		//int lowestPrice = lookForCheapest(items, currentPrice);
 		Item currentItem = items[currentPrice];
-		Item lowerPriceItem = items[lowestPrice];
-		items[currentPrice] = lowerPriceItem;
+		Item lowerPricedItem = items[lowestPrice];
+		items[currentPrice] = lowerPricedItem;
 		items[lowestPrice] = currentItem;
 		
 	}
 		
 }
+		
 
-private static int lookForCheapest(Item[] items, int start) {
+/*private static int lookForCheapest(Item[] items, int start) {
 	
 		int lowestPrice = start;
 		
@@ -60,6 +72,6 @@ private static int lookForCheapest(Item[] items, int start) {
 		}
 		
 		return lowestPrice;
-	}
+	}*/
 
 }
