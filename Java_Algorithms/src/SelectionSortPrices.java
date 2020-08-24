@@ -17,7 +17,7 @@ public class SelectionSortPrices {
 				null
 		};
 		
-		sortItemsAscedingOrder(items);
+		sortItemsAscedingOrder(items);//Selection sort
 		
 		for(Item item : items) {
 			
