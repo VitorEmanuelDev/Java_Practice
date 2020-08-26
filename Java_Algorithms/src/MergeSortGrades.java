@@ -8,6 +8,7 @@ public class MergeSortGrades {
 				new Student("Renae", 70),
 				new Student("Leonardo", 73),
 				new Student("Akash", 79),
+				new Student("Ahmed", 80),
 				new Student("Sophia", 84),
 				new Student("Park", 90)
 				
@@ -19,15 +20,16 @@ public class MergeSortGrades {
 				new Student("Cheikh", 82),
 				new Student("Waleed", 86),
 				new Student("Luna", 89),
-				new Student("Gabriela", 92)
+				new Student("Rafael", 92),
+				new Student("Gabriela", 94)
 			
 		};
 		
 		Student mergedGroups[] = mergeSort(studentsA, studentsB);
 		
-		for(Student grade : mergedGroups) {
+		for(Student student : mergedGroups) {
 			
-			System.out.println(grade.getName());
+			System.out.println(student.getName() + " .............." + student.getGrade());
 			
 		}
 		
@@ -36,22 +38,37 @@ public class MergeSortGrades {
 	
 	private static Student[] mergeSort(Student[] studentsA, Student[] studentsB) {
 		
-		int arraySize = studentsA.length + studentsB.length;
-		Student[] mergedGroups = new Student[arraySize];
+		int mergedGroupSize = studentsA.length + studentsB.length;
+		Student[] mergedGroups = new Student[mergedGroupSize];
 		
 		int currentStudentA = 0;
 		int currentStudentB = 0;
+		int currentStudent = 0;
 		
-		Student student1 = studentsA[currentStudentA];
-		Student student2 = studentsB[currentStudentB];
-		
-		while(currentStudentA < studentsA.length) {
+		//there's a bug I still need to fix
+		while(currentStudentA < studentsA.length && currentStudentB < studentsB.length) {
         
+			Student student1 = studentsA[currentStudentA];
+			Student student2 = studentsB[currentStudentB];			
 			
+			if(student1.getGrade() < student2.getGrade()) {
+				
+				mergedGroups[currentStudent] = student1;
+				currentStudentA++;
+				
+			} else {
+				
+				mergedGroups[currentStudent] = student2;
+				currentStudentB++;
+				
+			}
+			
+			currentStudent++;
+				
 		}
-		
-		
+			
 		return mergedGroups;
+		
 	}
 
 }
