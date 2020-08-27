@@ -1,4 +1,4 @@
-//class related to the Item class. the merge sort assumes that the lists are already ordered
+//Class related to the Student.java class. The merge sort algorithm assumes that the lists are already ordered
 
 public class MergeSortGrades {
 	
@@ -45,7 +45,6 @@ public class MergeSortGrades {
 		int currentStudentB = 0;
 		int currentStudent = 0;
 		
-		//there's a bug I still need to fix
 		while(currentStudentA < studentsA.length && currentStudentB < studentsB.length) {
         
 			Student student1 = studentsA[currentStudentA];
@@ -67,6 +66,7 @@ public class MergeSortGrades {
 				
 		}
 		
+		//loops to get remaining elements 
 		while(currentStudentA < studentsA.length) {
 			
 			mergedGroups[currentStudent] = studentsA[currentStudentA];
