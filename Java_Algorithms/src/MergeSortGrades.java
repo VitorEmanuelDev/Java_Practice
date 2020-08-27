@@ -4,17 +4,13 @@ public class MergeSortGrades {
 	
 	public static void main(String[] args) {
 				
-		Student studentsA[] = {
+		Student students[] = {
 				new Student("Renae", 70),
 				new Student("Leonardo", 73),
-				new Student("Akash", 79),
+				new Student("Akash", 78),
 				new Student("Ahmed", 80),
 				new Student("Sophia", 84),
-				new Student("Park", 90)
-				
-		};
-		
-		Student studentsB[] = {
+				new Student("Park", 90),
 				new Student("Pogba", 71),
 				new Student("Luka", 79),
 				new Student("Fatou", 82),
@@ -25,7 +21,7 @@ public class MergeSortGrades {
 			
 		};
 		
-		Student mergedGroups[] = mergeSort(studentsA, studentsB);
+		Student mergedGroups[] = mergeSort(students, 0, students.length/2, students.length);
 		
 		for(Student student : mergedGroups) {
 			
@@ -36,51 +32,51 @@ public class MergeSortGrades {
 	
 	}
 	
-	private static Student[] mergeSort(Student[] studentsA, Student[] studentsB) {
+	private static Student[] mergeSort(Student[] students, int start, int middle, int end) {
 		
-		int mergedGroupSize = studentsA.length + studentsB.length;
-		Student[] mergedGroups = new Student[mergedGroupSize];
+
+		Student[] mergedGroups = new Student[students.length];
 		
-		int currentStudentA = 0;
-		int currentStudentB = 0;
-		int currentStudent = 0;
+		int current = 0;
+		int current1 = start;
+		int current2 = middle;
 		
-		while(currentStudentA < studentsA.length && currentStudentB < studentsB.length) {
+		while(current1 < middle && current2 < end) {
         
-			Student student1 = studentsA[currentStudentA];
-			Student student2 = studentsB[currentStudentB];			
+			Student student1 = students[current1];
+			Student student2 = students[current2];			
 			
 			if(student1.getGrade() < student2.getGrade()) {
 				
-				mergedGroups[currentStudent] = student1;
-				currentStudentA++;
+				mergedGroups[current] = student1;
+				current1++;
 				
 			} else {
 				
-				mergedGroups[currentStudent] = student2;
-				currentStudentB++;
+				mergedGroups[current] = student2;
+				current2++;
 				
 			}
 			
-			currentStudent++;
+			current++;
 				
 		}
 		
 		//loops to get remaining elements 
-		while(currentStudentA < studentsA.length) {
+		while(current1 < middle) {
 			
-			mergedGroups[currentStudent] = studentsA[currentStudentA];
-			currentStudent++;
-			currentStudentA++;
+			mergedGroups[current] = students[current1];
+			current1++;
+			current++;
 			
 		}
 		
-		while(currentStudentB < studentsB.length) {
+		while(current2 < end) {
 			
-			mergedGroups[currentStudent] = studentsB[currentStudentB];
-			currentStudent++;
-			currentStudentB++;
-			
+			mergedGroups[current] = students[current2];
+			current2++;
+			current++;
+				
 		}
 			
 		return mergedGroups;
