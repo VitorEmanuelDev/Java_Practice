@@ -17,7 +17,7 @@ public class MergeSortGrades {
 		Student studentsB[] = {
 				new Student("Pogba", 71),
 				new Student("Luka", 79),
-				new Student("Cheikh", 82),
+				new Student("Fatou", 82),
 				new Student("Waleed", 86),
 				new Student("Luna", 89),
 				new Student("Rafael", 92),
@@ -65,6 +65,22 @@ public class MergeSortGrades {
 			
 			currentStudent++;
 				
+		}
+		
+		while(currentStudentA < studentsA.length) {
+			
+			mergedGroups[currentStudent] = studentsA[currentStudentA];
+			currentStudent++;
+			currentStudentA++;
+			
+		}
+		
+		while(currentStudentB < studentsB.length) {
+			
+			mergedGroups[currentStudent] = studentsB[currentStudentB];
+			currentStudent++;
+			currentStudentB++;
+			
 		}
 			
 		return mergedGroups;
