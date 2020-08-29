@@ -1,4 +1,4 @@
-//Class related to the Student.java class. Program that implements the ,merge sort agorithm
+//Class related to the Student.java class. Program that implements the merge sort algorithm
 
 public class MergeSortGrades {
 	
@@ -29,7 +29,6 @@ public class MergeSortGrades {
 			
 		}
 	}
-		
 	
 	private static void sort(Student[] students, int start, int end) {
 		
@@ -46,7 +45,6 @@ public class MergeSortGrades {
 		}
 			
 	}
-
 	
 	private static Student[] merge(Student[] students, int start, int middle, int end) {
 		
@@ -104,5 +102,6 @@ public class MergeSortGrades {
 		return students;
 		
 	}
+	
 
 }
