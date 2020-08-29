@@ -1,4 +1,4 @@
-//Class related to the Student.java class. The merge sort algorithm assumes that the lists are already ordered
+//Class related to the Student.java class. Program that implements the ,merge sort agorithm
 
 public class MergeSortGrades {
 	
@@ -6,36 +6,52 @@ public class MergeSortGrades {
 				
 		Student students[] = {
 				new Student("Renae", 70),
-				new Student("Leonardo", 73),
-				new Student("Akash", 78),
-				new Student("Ahmed", 80),
-				new Student("Sophia", 84),
-				new Student("Park", 90),
-				new Student("Pogba", 71),
-				new Student("Luka", 79),
-				new Student("Fatou", 82),
 				new Student("Waleed", 86),
 				new Student("Luna", 89),
 				new Student("Rafael", 92),
-				new Student("Gabriela", 94)
+				new Student("Leonardo", 73),
+				new Student("Akash", 78),
+				new Student("Pogba", 71),
+				new Student("Luka", 79),
+				new Student("Fatou", 82),
+				new Student("Gabriela", 94),
+				new Student("Ahmed", 80),
+				new Student("Sophia", 84),
+				new Student("Park", 90),
 			
 		};
 		
-		Student mergedGroups[] = mergeSort(students, 0, students.length/2, students.length);
+		sort(students, 0, students.length);
 		
-		for(Student student : mergedGroups) {
+		for(Student student : students) {
 			
 			System.out.println(student.getName() + " .............." + student.getGrade());
 			
 		}
+	}
 		
 	
+	private static void sort(Student[] students, int start, int end) {
+		
+		int half = end - start;
+		
+		if(half > 1) {
+			
+			int middle = (start + end) / 2;
+			
+			sort(students, start, middle);
+			sort(students, middle, end);
+			merge(students, start , middle, end);	
+		
+		}
+			
 	}
+
 	
-	private static Student[] mergeSort(Student[] students, int start, int middle, int end) {
+	private static Student[] merge(Student[] students, int start, int middle, int end) {
 		
 
-		Student[] mergedGroups = new Student[students.length];
+		Student[] mergedGroups = new Student[end - start];
 		
 		int current = 0;
 		int current1 = start;
@@ -78,8 +94,14 @@ public class MergeSortGrades {
 			current++;
 				
 		}
+		
+		for(int counter = 0; counter < current; counter++) {
 			
-		return mergedGroups;
+			students[start + counter] = mergedGroups[counter];
+			
+		}
+		
+		return students;
 		
 	}
 
