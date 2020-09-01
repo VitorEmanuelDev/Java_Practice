@@ -32,10 +32,8 @@ public class QuickSortGrades {
 		
 		int lower = 0;
 		
-		for(int current = 0; current < students.length; current++) {
-			
-			Student student = students[current];
-			
+		for(Student student : students) {
+						
 			if(student.getGrade() < Jamal.getGrade()) {
 				
 				lower++;
