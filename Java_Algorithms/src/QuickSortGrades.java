@@ -37,35 +37,36 @@ public class QuickSortGrades {
 	}
 
 	private static int partition(Student[] students, int start, int end) {
-	//this function allow to know how many people have a lower grade so we can divide the array by using
-		//a pivot or point of reference
+	//this function allows us to know how many people have a lower grade so we can divide the array by using
+		//a pivot or point of reference each time
 		
 		int studentsWithLowerGrades = 0;
-		//this variable will count the number of students who had grades lower than Lamar's
-		//this will allow us to know where Lamar should be placed as a pivot with classmates having lower grades
+		//this variable will count the number of students who had grades lower than our pivot
+		//this will allow us to know where the pivot student should be placed with classmates having lower grades
 		//on the left and classmates having higher grades on the right
 		
 		Student pivotStudent = students[end - 1];
-		// this is Lamar's initial position before the algorithm starts to execute it's steps
+		// this is our pivot's initial position before the algorithm starts to execute it's steps
 		
 		for(int current = 0; current < end - 1; current++) {
 			
 			Student currentStudent = students[current];// isolate current student as a variable so we can analyze it
 			
 			if(currentStudent.getGrade() <= pivotStudent.getGrade()) {
-				//if the current student being analyzed has a grade lower than Lamar's
+				//if the current student being analyzed has a lower grade than the current pivot student
 				
-				swap(students, current, studentsWithLowerGrades);//put that student to the left of Lamar starting 
-				//with the current position held for studentsWithLowerGrades.
+				swap(students, current, studentsWithLowerGrades);//put that student to the left of our 
+				//swap the current student with the student on the studentsWithLowerGrades position
 				studentsWithLowerGrades++;
-				//after the swap, increment the variable studentsWithLowerGrades by one
+				//after the swap, increment the variable studentsWithLowerGrades by one and do this all over again
+				//until we reach the end of the list
 				
 			}
 		
 		}
 	
 		swap(students, end - 1, studentsWithLowerGrades);
-		//when this iteration ends, place Lamar right after all the students that had worst grades than him
+		//when this  function's iteration ends, place Lamar right after all the students that had worst grades than him
 		
 		return studentsWithLowerGrades;
 		//The value contained by the variable studentsWithLowerGrades now corresponds to Lamar's place on the list
@@ -83,11 +84,12 @@ public class QuickSortGrades {
 	}
 	
 	private static void sort(Student[] students, int from, int to) {
-		//after partitioning and sorting the students by grade, it's time to sort them in ascending order
+		//after partitioning and swaping the students according to their grades, it's time to sort them in ascending order
 		
-		int elements = to - from;// by doing this, we will always be able to get the relative position from where
-		//our analysis is going to run up until where it stops, but we have to make sure that subtraction is always
-		//going to be above one, otherwise, it would mean we have no element to analyze on the left 
+		int elements = to - from;// by doing this attribution, we will always be able to get the relative position from where
+		//our analysis is going to run up until where it stops, but we have to make sure that the subtraction is always
+		//going to be above one, at least. otherwise, in border cases, it would mean we have no element to analyze on the 
+		//left and this could crash our code with an out of bounds exception
 		
 		if(elements > 1) {
 			
