@@ -1,0 +1,20 @@
+!SESSION 2020-11-03 01:31:26.434 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.8
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data /home/vitor/Desktop/repos/Java_Practice/Java_Algorithms -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-11-03 01:31:43.031
+!MESSAGE No repository found at https://dbeaver.com/update/ee/latest/%20into.
+!SESSION 2020-11-03 01:43:39.287 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.8
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-11-03 01:43:57.432
+!MESSAGE No repository found at https://dbeaver.com/update/ee/latest/%20into.
