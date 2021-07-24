@@ -1,5 +1,7 @@
 package compareStrings;
 
+//1.3 Write a program check two strings are equal or not.
+
 import compareStrings.TestCompareStrings;
 
 public class CompareSrtrings {
