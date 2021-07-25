@@ -8,7 +8,7 @@ package arrays;
 
 public class Arrays {
 	
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		
 		OneDimensionalArrayLength test1 = new OneDimensionalArrayLength();
 		test1.printExample1();
