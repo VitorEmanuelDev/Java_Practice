@@ -6,7 +6,7 @@ public class MultiDimensionalArray {
 					{{8, 9},{1, 2}}};
 	int size = 0;
 	
-	public void printExample3() {
+	public void printExample4() {
 		
 		size = array3D.length;
 		

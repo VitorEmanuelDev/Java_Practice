@@ -17,7 +17,7 @@ public class Arrays {
 		test2.printExample2();
 		
 		MultiDimensionalArray test3 = new MultiDimensionalArray();
-		test3.printExample3();
+		test3.printExample4();
 		
 		
 		
