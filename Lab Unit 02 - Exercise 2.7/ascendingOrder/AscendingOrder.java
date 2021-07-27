@@ -1,5 +1,7 @@
 package ascendingOrder;
 
+//2.7 Write a program to arrange the numbers in ascending order.
+
 public class AscendingOrder {
 	
 	public static void main(String [] args) {

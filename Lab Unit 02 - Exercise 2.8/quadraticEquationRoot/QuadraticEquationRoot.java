@@ -3,7 +3,7 @@ package quadraticEquationRoot;
 import java.util.Scanner;
 import java.lang.Math;
 
-/*2.8 Write a program to calculate the roots of Quadratic equations.*/
+//2.8 Write a program to calculate the roots of Quadratic equations.
 
 public class QuadraticEquationRoot {
 	
