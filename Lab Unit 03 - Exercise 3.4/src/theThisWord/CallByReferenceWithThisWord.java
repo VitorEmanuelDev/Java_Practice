@@ -7,7 +7,7 @@ public class CallByReferenceWithThisWord {
 	  
 	 void changeWithThisByReference(int data){  
 		 
-		 this.data = this.data + 100; 
+		 this.data = data + 100; 
 		 
 	 }  
 	
