@@ -23,6 +23,7 @@ public class Room {
 		System.out.println("The room type is " + roomType);
 		System.out.println("The room area is " + Math.round(roomArea) + "m²");
 		System.out.println("The room has an AC:" + ACmachine);
+		System.out.print("\n");
 		
 	}
 
