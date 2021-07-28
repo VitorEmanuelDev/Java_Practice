@@ -5,19 +5,22 @@ class Bb extends Aa{
 	int z;
 	
 	Bb(){
-		x = 0;
-		y = 0;
+		
+		super();
 		z = 0;
+		
 	}
 	
 	Bb(int a, int b, int c){
-		x = a;
-		y = b;
+		
+		super(a, b);
 		z = c;
+		
 	}
 	
 	void display(){
 		
+		super.display();
 		System.out.println ("With Bb extends Aa x y z == " + x + " " + y + " " + z);
 	
 	}
