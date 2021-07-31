@@ -29,15 +29,6 @@ public class ColorChecking {
 		 
 		float brightness = hsb[2];
 		
-		int  color = Color.HSBtoRGB(hue, saturation, brightness);	
-		
-		red = (color>>16)&0xFF;
-		 
-		green = (color>>8)&0xFF;
-		 
-		blue = color&0xFF;
-		
-		
 		System.out.println("Hue: " + hue + " Saturation: " + saturation + " Brightness: " + brightness);
 		
 		

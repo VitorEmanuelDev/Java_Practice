@@ -1,6 +1,6 @@
 package colorChecking;
 
-public class Color {
+public abstract class Color {
 	
 	int red;
 	int green;
@@ -38,13 +38,7 @@ public class Color {
 	}
 	
 	
-	public void RGBtoHSB(int red, int green, int blue, float[] hsb) {}
-	
-	
-	public static int HSBtoRGB(double hue, double saturation, double brightness) {
-		
-		return 0;
-	}
+	public abstract void RGBtoHSB(int red, int green, int blue, float[] hsb);
 
 	
 }
