@@ -1,3 +1,5 @@
+/.metadata/
+/.gitignore
 /CollatzConjecture.class
 /CompareFirstLast.class
 /CountString.class
