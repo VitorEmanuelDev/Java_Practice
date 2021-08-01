@@ -2,6 +2,8 @@ package vector;
 
 import java.util.*;
 
+//9.3 Write a program using vector class.
+
 class VectorExample {
  
 	public static void main(String[] args){
