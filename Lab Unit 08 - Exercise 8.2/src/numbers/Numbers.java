@@ -178,7 +178,7 @@ public class Numbers {
 	public static void main (String [] args){
 	
 		Numbers mynum = new Numbers( );
-		double num = 199;
+		//double num = 199;
 		System.out.println("The given numbers are 108.0d and 249");
 		System.out.println ("\nisZero " + mynum.isZero());
 		System.out.println ("\nisPositive " + mynum. isPositive());
